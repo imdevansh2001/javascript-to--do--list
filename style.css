@@ -1,0 +1,41 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+#heading {
+  color: black;
+}
+.bi-file-plus-fill {
+  font-size: 2rem;
+  color: black;
+}
+.bi-file-plus-fill:hover {
+  color: rgb(255, 196, 0);
+}
+#items-box {
+  border: 0.1rem solid black;
+  height: 60vh;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 171),
+    rgb(255, 177, 255)
+  );
+  overflow: hidden;
+  overflow-y: scroll;
+}
+#list-input {
+  background-color: rgb(159, 255, 209);
+  font-size: 1.5rem;
+}
+
+#list-input::placeholder {
+  color: black;
+  text-align: center;
+}
+#clear-all {
+  color: rgb(159, 255, 209);
+  background-image: linear-gradient(to right, rgb(1, 37, 1), rgb(1, 1, 52));
+}
+#clear-all:hover {
+  color: rgb(255, 247, 0);
+}
